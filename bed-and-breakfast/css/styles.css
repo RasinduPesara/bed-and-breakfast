@@ -1,0 +1,86 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#ddcfb5; color:#969686; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#a06916; text-decoration:underline;}
+p a:hover{ color:#000; text-decoration:none;}
+
+p a.a2{font:10px/14px Tahoma, sans-serif; color:#969686; text-decoration:underline;}
+p a.a2:hover{ color:#000; text-decoration:none;}
+
+.headline{font:12px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#3f3128; font-weight:bold}
+
+#container{width:775px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:775px; height:287px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:27px; left:71px}
+#header img#slogan{position:absolute; top:170px; left:73px}
+
+#header ul.menu{position:absolute; top:32px; left:341px; width:420px}
+#header ul.menu li{height:23px; margin-right:17px; float:left}
+#header ul.menu li a{height:23px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:23px;}
+
+#header ul.menu li.btn_1 a{width:33px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:33px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_2 a{width:35px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:35px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_3 a{width:49px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:49px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_4 a{width:46px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:46px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:52px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_5 a:hover{width:52px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.line{width:2px; background:url(../images/line_m.gif) 0 0 no-repeat}
+
+/* CONTENT */
+
+#content{width:675px; position:relative; clear:both; background:#fff; margin-left:50px}
+
+#leftPan{width:335px; float:left; margin:21px 25px 0 28px; display:inline}
+#rightPan{width:265px; float:left; margin:21px 0 0 0;}
+
+#welcome{margin-bottom:20px}
+#welcome h2{height:32px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:10px}
+#welcome img{float:left; margin-right:11px; margin-left:3px;}
+#welcome p{margin-left:3px}
+#welcome p#side{float:left; width:240px; margin-left:0}
+#welcome p#side span{display:block; margin-bottom:8px}
+.clear#welClear{height:6px}
+
+#services{margin-bottom:20px}
+#services h2{height:32px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:10px}
+#services ul li{font:11px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; background:url(../images/arrow.jpg) 0 2px no-repeat; padding-left:20px; height:26px;}
+#services ul li a{color:#3f3128; text-decoration:underline;}
+#services ul li a:hover{color:#3f3128; text-decoration:none;}
+
+#rooms{margin-bottom:16px}
+#rooms h2{height:32px; position:relative; background:url(../images/h_rooms.gif) 0 0 no-repeat; margin-bottom:10px}
+#rooms img{float:left; margin-right:10px; margin-left:5px; display:inline}
+#rooms p{margin-left:5px; margin-top:10px}
+#rooms p#roomsSide{float:left; width:170px; margin-left:0; margin-top:0}
+#rooms p#roomsSide span{ display:block; margin-bottom:8px}
+
+#food h2{height:32px; position:relative; background:url(../images/h_food.gif) 0 0 no-repeat; margin-bottom:10px}
+#food  img{float:left; margin-right:10px; margin-left:5px; display:inline}
+#food  p{margin-left:5px; margin-top:10px}
+#food  p#foodSide{float:left; width:170px; margin-left:0; margin-top:0}
+#food  p#foodSide span{ display:block; margin-bottom:8px}
+
+/* FOOTER */
+
+#footer{height:61px; clear:both; width:775px;}
+#footer p{padding: 15px 0 0 0; font:11px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#3f3128;}
+#footer p a{font:11px/16px Tahoma, sans-serif; font-weight:normal; color:#3f3128; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#3f3128}
